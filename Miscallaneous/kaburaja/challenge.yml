@@ -1,0 +1,26 @@
+name: "Kabur Aja"
+category: Miscallaneous
+description: |-
+  Kabur aja this, kabur aja that, how about you kabur from this chall?
+
+  author: Wrth
+
+connection_info: nc 13.229.48.88 6529
+
+##### DON'T CHANGE
+value: 500
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{4826b88f70c2c91bd59c3e1b4f59f8f4}
+
+files:
+  - dist/chall.py
+
+tags:
+  - medium
+
+state: visible
+
+version: "0.1"

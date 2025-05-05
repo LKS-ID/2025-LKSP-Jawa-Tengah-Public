@@ -1,0 +1,26 @@
+name: "Let's Go Gambling!"
+category: Cryptography
+description: |-
+  <img src="https://media1.tenor.com/m/NlSmw7eIGk4AAAAC/raxdflipnote-meme.gif">
+
+  author: Wrth
+
+connection_info: nc 13.229.48.88 9810
+
+##### DON'T CHANGE
+value: 500
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{fdd28f3bbac98be826db100e48e853e2}
+
+files:
+ - dist/chall.py
+ 
+tags:
+  - medium
+
+state: visible
+
+version: "0.1"

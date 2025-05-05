@@ -1,0 +1,22 @@
+name: "Strings"
+category: Reverse Engineering
+description: |-
+  Free flag for very-super-baby-rev?
+
+##### DON'T CHANGE
+value: 250
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{ah_yes_classic_strings!}
+
+tags:
+  - very-baby
+
+files:
+ - dist/chall
+
+state: visible
+
+version: "0.1"

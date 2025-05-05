@@ -1,0 +1,150 @@
+<Event
+	xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>1</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2025-01-01T21:05:04.5915926Z'/>
+		<EventRecordID>80153</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3348' ThreadID='3136'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>lks.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2025-01-01 21:05:04.590</Data>
+		<Data Name='ProcessGuid'>{62e4af84-a080-673f-6509-00000000f701}</Data>
+		<Data Name='ProcessId'>5068</Data>
+		<Data Name='Image'>C:\Windows\System32\mstsc.exe</Data>
+		<Data Name='FileVersion'>10.0.20348.2520 (WinBuild.160101.0800)</Data>
+		<Data Name='Description'>Remote Desktop Connection</Data>
+		<Data Name='Product'>MicrosoftÂ® WindowsÂ® Operating System</Data>
+		<Data Name='Company'>Microsoft Corporation</Data>
+		<Data Name='OriginalFileName'>mstsc.exe</Data>
+		<Data Name='CommandLine'>"mstsc.exe" "C:\Users\Babai\Downloads\Rahasia\mangt4thjsduiiuw.rdp"</Data>
+		<Data Name='CurrentDirectory'>C:\Users\Babai\Downloads\Rahasia\</Data>
+		<Data Name='User'>LKS\Babai</Data>
+		<Data Name='LogonGuid'>{62e4af84-5fb8-673f-d1ec-070000000000}</Data>
+		<Data Name='LogonId'>0x7ecd1</Data>
+		<Data Name='TerminalSessionId'>2</Data>
+		<Data Name='IntegrityLevel'>High</Data>
+		<Data Name='Hashes'>MD5=D67005D6F03D78B6FBFFB93E62D49369,SHA256=81A6E1EA20CB60DD1007E8536D878FF80A43D475ED2801F6937A3C5ADDA5FCED,IMPHASH=30032A2217E731047F591BC73887FA80</Data>
+		<Data Name='ParentProcessGuid'>{62e4af84-5fb9-673f-f300-00000000f701}</Data>
+		<Data Name='ParentProcessId'>4892</Data>
+		<Data Name='ParentImage'>C:\Windows\explorer.exe</Data>
+		<Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data>
+		<Data Name='ParentUser'>LKS\Babai</Data>
+	</EventData>
+</Event>
+<Event
+	xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>15</EventID>
+		<Version>2</Version>
+		<Level>4</Level>
+		<Task>15</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2025-01-01T21:05:03.2006628Z'/>
+		<EventRecordID>80151</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3348' ThreadID='3136'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>lks.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2025-01-01 21:05:03.192</Data>
+		<Data Name='ProcessGuid'>{62e4af84-5fb9-673f-f300-00000000f701}</Data>
+		<Data Name='ProcessId'>4892</Data>
+		<Data Name='Image'>C:\Windows\Explorer.EXE</Data>
+		<Data Name='TargetFilename'>C:\Users\Babai\Downloads\Rahasia\mangt4thjsduiiuw.rdp</Data>
+		<Data Name='CreationUtcTime'>2025-01-01 18:08:56.000</Data>
+		<Data Name='Hash'>MD5=508176BF1ABCEAEC35AC5F718DD8A14C,SHA256=04F66B70CDF2C7B6750A53728BCAA1899B522EA97BFCEB185F59D01D23A343CB,IMPHASH=00000000000000000000000000000000</Data>
+		<Data Name='Contents'>full address:s:34.221.50.57:3389  username:s:%USERNAME%  remoteapplicationmode:i:1  remoteapplicationprogram:s:||Desktop Budi Saudinan PT Kilang Minyak  remoteapplicationname:s:Desktop Budi Saudinan PT Kilang Minyak  remoteapplicationcmdline:s:%USERPROFILE%  remoteapplicationicon:s:C:\Windows\System32\mstsc.exe  authentication level:i:2  enablecredsspsupport:i:1  negotiate security layer:i:1  prompt for credentials:i:1  drivestoredirect:s:*  redirectdrives:i:1  redirectprinters:i:1  redirectcomports:i:1  redirectsmartcards:i:1  redirectclipboard:i:1</Data>
+		<Data Name='User'>LKS\Babai</Data>
+	</EventData>
+</Event>
+<Event
+	xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>15</EventID>
+		<Version>2</Version>
+		<Level>4</Level>
+		<Task>15</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2025-01-01T21:05:03.2002689Z'/>
+		<EventRecordID>80148</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3348' ThreadID='3136'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>lks.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2025-01-01 21:05:03.192</Data>
+		<Data Name='ProcessGuid'>{62e4af84-5fb9-673f-f300-00000000f701}</Data>
+		<Data Name='ProcessId'>4892</Data>
+		<Data Name='Image'>C:\Windows\Explorer.EXE</Data>
+		<Data Name='TargetFilename'>C:\Users\Babai\Downloads\Rahasia\mangt4thjsduiiuw.rdp</Data>
+		<Data Name='CreationUtcTime'>2025-01-01 18:08:56.000</Data>
+		<Data Name='Hash'>MD5=508176BF1ABCEAEC35AC5F718DD8A14C,SHA256=04F66B70CDF2C7B6750A53728BCAA1899B522EA97BFCEB185F59D01D23A343CB,IMPHASH=00000000000000000000000000000000</Data>
+		<Data Name='Contents'>full address:s:134.209.120.69:3389  username:s:%USERNAME%  remoteapplicationmode:i:1  remoteapplicationprogram:s:||Desktop Budi Saudinan PT Kilang Minyak  remoteapplicationname:s:Desktop Budi Saudinan PT Kilang Minyak  remoteapplicationcmdline:s:%USERPROFILE%  remoteapplicationicon:s:C:\Windows\System32\mstsc.exe  authentication level:i:2  enablecredsspsupport:i:1  negotiate security layer:i:1  prompt for credentials:i:1  drivestoredirect:s:*  redirectdrives:i:1  redirectprinters:i:1  redirectcomports:i:1  redirectsmartcards:i:1  redirectclipboard:i:1</Data>
+		<Data Name='User'>LKS\Babai</Data>
+	</EventData>
+</Event>
+<Event
+	xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>1</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2025-01-01T20:38:29.5818370Z'/>
+		<EventRecordID>79984</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3348' ThreadID='3136'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>lks.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2025-01-01 20:38:29.581</Data>
+		<Data Name='ProcessGuid'>{62e4af84-9a45-673f-c008-00000000f701}</Data>
+		<Data Name='ProcessId'>4668</Data>
+		<Data Name='Image'>C:\Windows\System32\mstsc.exe</Data>
+		<Data Name='FileVersion'>10.0.20348.2520 (WinBuild.160101.0800)</Data>
+		<Data Name='Description'>Remote Desktop Connection</Data>
+		<Data Name='Product'>MicrosoftÂ® WindowsÂ® Operating System</Data>
+		<Data Name='Company'>Microsoft Corporation</Data>
+		<Data Name='OriginalFileName'>mstsc.exe</Data>
+		<Data Name='CommandLine'>"mstsc.exe" "C:\Users\Babai\AppData\Local\Temp\2\1c364188-982b-44fc-892d-3f5307bc7ada_Rahasia.zip.ada\mangt4thjsduiiuw.rdp"</Data>
+		<Data Name='CurrentDirectory'>C:\Windows\system32\</Data>
+		<Data Name='User'>LKS\Babai</Data>
+		<Data Name='LogonGuid'>{62e4af84-5fb8-673f-d1ec-070000000000}</Data>
+		<Data Name='LogonId'>0x7ecd1</Data>
+		<Data Name='TerminalSessionId'>2</Data>
+		<Data Name='IntegrityLevel'>High</Data>
+		<Data Name='Hashes'>MD5=D67005D6F03D78B6FBFFB93E62D49369,SHA256=81A6E1EA20CB60DD1007E8536D878FF80A43D475ED2801F6937A3C5ADDA5FCED,IMPHASH=30032A2217E731047F591BC73887FA80</Data>
+		<Data Name='ParentProcessGuid'>{62e4af84-5fb9-673f-f300-00000000f701}</Data>
+		<Data Name='ParentProcessId'>4892</Data>
+		<Data Name='ParentImage'>C:\Windows\explorer.exe</Data>
+		<Data Name='ParentCommandLine'>C:\Windows\Explorer.EXE</Data>
+		<Data Name='ParentUser'>LKS\Babai</Data>
+	</EventData>
+</Event>

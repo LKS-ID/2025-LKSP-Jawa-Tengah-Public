@@ -1,0 +1,26 @@
+name: "Mencari Tiga Serangkai"
+category: Miscallaneous
+description: |-
+  Al Capone, Carlos, dan Don Capo adalah tiga serangkai yang diduga adalah kriminal kelas kakap, mereka diduga sedang menginap di hotel dekat foto berikut, dapatkan kamu mencari hotel terdekat dari foto ini?
+
+  Flag format adalah LKS{Nama Hotel}, dengan nama hotel sesuai persis dengan yang tertulis google maps.
+
+  author: Wrth
+
+##### DON'T CHANGE
+value: 250
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{The 1O1 Bogor Suryakancana}
+
+tags:
+  - easy
+
+files:
+ - dist/chall.png
+
+state: visible
+
+version: "0.1"

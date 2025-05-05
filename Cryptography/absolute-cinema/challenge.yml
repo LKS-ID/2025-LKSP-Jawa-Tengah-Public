@@ -1,0 +1,23 @@
+name: "Absolute Cinema"
+category: Cryptography
+description: |-
+  <img src="https://media1.tenor.com/m/-GLxXYXKdlAAAAAd/cinema-absolute.gif">
+
+  author: Wrth
+
+connection_info: nc 13.229.48.88 8871
+
+##### DON'T CHANGE
+value: 250
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{bc55f78e8d099f68a954c3fd727a3e46}
+
+tags:
+  - easy
+
+state: visible
+
+version: "0.1"

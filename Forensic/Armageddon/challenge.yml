@@ -1,0 +1,37 @@
+name: "Armageddon"
+category: Digital Forensic
+description: |-
+  ** WARNING: THIS IS A REAL MALWARE, PLEASE DO NOT EXECUTE IT IN YOUR LIVE ENVIRONMENT UNLESS YOU KNOW WHAT YOU'RE DOING, JUDGE WON'T BE RESPONSIBLE IF THE MALWARE IS DESTRUCTIVE**
+
+  This malware loader has been seen in the wild infecting a machine that can steal a lot of private information.
+
+  The Powershell script & Packet Capture file is retrieved from the known victim. There's one capability of this malware does when it's being run in-memory that this malware opens and checks the existing subkey. Then the malware continues to harvest **4 Key Values** consisting private information from that registry.
+
+  
+  What's the full path of this registry subkey? The flag is the full path of it.
+
+  Example: You get full path of it Software\WOW6432Node\Adobe Flash, then the flag is `LKS{Software\WOW6432Node\Adobe Flash}`
+
+  Download the attachment with zip password is infected
+
+
+  Notes: If you successfully OSINT'ed what's the malware and know the information directly from Google, it's unintended and your score will be deducted 50%, we appreciate if you can analyze it 100% fully by yourself ;)
+
+
+##### DON'T CHANGE
+value: 750
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{Software\Martin Prikryl\WinSCP 2\Sessions}
+
+tags:
+  - hard
+
+files:
+ - dist/SuperStealer.zip
+
+state: visible
+
+version: "0.1"

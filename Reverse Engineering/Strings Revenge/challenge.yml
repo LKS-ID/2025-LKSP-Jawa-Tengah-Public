@@ -1,0 +1,22 @@
+name: "Strings Revenge"
+category: Reverse Engineering
+description: |-
+  That was too easy but since I'm generous, here's a free flag for very-easy-rev?
+
+##### DON'T CHANGE
+value: 500
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{y0u_C_4n't_C++_m3???}
+
+tags:
+  - easy
+
+files:
+ - dist/chall
+
+state: visible
+
+version: "0.1"

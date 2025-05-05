@@ -1,0 +1,29 @@
+name: "Zenith"
+category: Digital Forensic
+description: |-
+  One of our employee just got phished after he initiated an unofficial RDP connection to some unknown server. Luckily, we always log and monitor every employee's activities in the office.
+
+  This is the SysMon logs given by the SOC team and your task is to get what RDP property name that may give the attacker to surf the employee's local internal file and directories from their computer.
+
+  Flag = LKS{propertynameinlowercase}
+
+  Example Flag = LKS{peroperti}
+
+
+##### DON'T CHANGE
+value: 250
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{drivestoredirect}
+
+tags:
+  - easy
+
+files:
+ - dist/logs.xml
+
+state: visible
+
+version: "0.1"

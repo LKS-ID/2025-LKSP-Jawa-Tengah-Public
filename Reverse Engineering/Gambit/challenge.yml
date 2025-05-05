@@ -1,0 +1,24 @@
+name: "Gambit"
+category: Reverse Engineering
+description: |-
+  Still easy right? I will give you the last challenge but this time it won't be that straightforward.
+
+  Anyway, is gambling a thing in April 2025?
+
+##### DON'T CHANGE
+value: 750
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{do_not_jUd0L_1a2f3b5c6b3abbe0}
+
+tags:
+  - medium
+
+files:
+ - dist/chall.zip
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,26 @@
+name: "heavydirtysoul"
+category: Cryptography
+description: |-
+  Can you save my heavydirtysoul?
+
+  author: Wrth
+
+connection_info: nc 13.229.48.88 4895
+
+##### DON'T CHANGE
+value: 750
+type: standard
+##### DON'T CHANGE
+
+flags:
+  - LKS{a76ad0e64bf}
+
+tags:
+  - hard
+
+files:
+ - dist/chall
+
+state: visible
+
+version: "0.1"
